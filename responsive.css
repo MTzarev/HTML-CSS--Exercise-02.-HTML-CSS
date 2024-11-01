@@ -1,0 +1,52 @@
+@media all and (max-width:600px){
+   header{
+    width: 25%;
+   }
+   .navigation{
+    display: flex;
+    flex-direction: column;
+   }
+   .navigation-list-items{
+    display: flex;
+
+   }
+  .navigation-list {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .header-img-wrapper{
+    display: none;
+  }
+  .header-content{
+  width: 335%;
+   display: flex;
+   
+  }
+  .header-content-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    width: 100%;
+    line-height: 40px;
+    margin-left: -10px;
+    margin-right: auto;
+
+  }
+  .benefits{
+    flex-direction: column;
+    margin-left: -10px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  }
+  .info-section{
+    flex-direction: column;
+     
+  }
+  .info-section-item{
+    padding-top: 30px;
+  }
+  .info-section-item:nth-child(1){
+    margin-top: -30px;
+  }
+}
